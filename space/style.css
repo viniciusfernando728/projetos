@@ -77,6 +77,7 @@ a.menu:hover {
     background-color: rgba(255, 255, 255, 0.136);
     border-right: 1px solid white;
     border-bottom: 1px solid white;
+    transition-duration: 0.6s;
 }
 
 a.menu {
@@ -86,7 +87,7 @@ a.menu {
 }
 
 main {
-    margin: 60px;
+    margin: 60px 180px;
     text-align: justify;
 }
 
