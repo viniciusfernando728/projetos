@@ -1,0 +1,121 @@
+@charset "UTF-8"
+
+a
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+:root {
+    --cor01: #102542;
+    --fonte01: 'Babylonica', 'Times New Roman', serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: var(--fonte01);
+    font-size: 5em;
+    margin: 0px;
+}
+
+p.slogan {
+    margin: 8px;
+    text-indent: 0px;
+    font-size: em;
+}
+
+p {
+    text-indent: 35px;
+}
+
+p.conclusao {
+    text-indent: 0px;
+    text-align: center;
+}
+
+p.marca {
+    font-family: var(--fonte01);
+    font-size: 3em;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+p#icone {
+    margin-top: 10px;
+}
+
+p.copy {
+    color: rgb(107, 107, 107);
+}
+
+header {
+    background-image: url(imagens/fundo-header.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: auto;
+    height: 200px;
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: justify;
+    background-color: black;
+    padding: 7px;
+}
+
+a.menu:hover {
+    background-color: rgba(255, 255, 255, 0.136);
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+a.menu {
+    color: white;
+    text-decoration: none;
+    padding: 6px 25px
+}
+
+main {
+    margin: 60px;
+    text-align: justify;
+}
+
+img.reducao {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+img.orion {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    display: block;
+}
+
+a.icone {
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+    text-indent: 0px;
+}
