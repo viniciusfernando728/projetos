@@ -87,8 +87,15 @@ a.menu {
 }
 
 main {
-    margin: 60px 180px;
+    margin: 0px;
     text-align: justify;
+}
+
+article {
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
 }
 
 img.reducao {
