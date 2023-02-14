@@ -8,11 +8,17 @@ a
     margin: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+    font-family: 'Revamped';
+    src: url(fontes/Revamped.otf) format(opentype);
+}
 
 :root {
     --cor01: #102542;
     --fonte01: 'Babylonica', 'Times New Roman', serif;
+    --fonte02: 'Revamped', 'Times New Roman', serif;
 }
 
 body {
@@ -20,15 +26,20 @@ body {
 }
 
 h1 {
-    font-family: var(--fonte01);
+    font-family: var(--fonte02), 'Times New Roman', serif;
     font-size: 5em;
     margin: 0px;
+}
+
+h2 {
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    font-size: 2em;
 }
 
 p.slogan {
     margin: 8px;
     text-indent: 0px;
-    font-size: em;
+    font-size: 1.2em;
 }
 
 p {
@@ -41,10 +52,10 @@ p.conclusao {
 }
 
 p.marca {
-    font-family: var(--fonte01);
-    font-size: 3em;
+    font-family: var(--fonte02), 'Times New Roman', serif;
+    font-size: 2.5em;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 p#icone {
