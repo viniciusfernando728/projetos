@@ -98,7 +98,7 @@ article {
     padding: 15px;
 }
 
-img.reducao {
+img.imagemg {
     display: block;
     margin: auto;
     margin-top: 30px;
@@ -106,11 +106,10 @@ img.reducao {
     width: 100%;
 }
 
-img.orion {
-    width: 400px;
+img.imagemp {
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     display: block;
 }
 
