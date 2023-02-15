@@ -1,6 +1,6 @@
 @charset "UTF-8"
 
-a
+*
 
 
 *{
@@ -128,12 +128,10 @@ a.icone {
     text-align: center;
 }
 
-
-
 footer{
     background-color: black;
     height: 200px;
     color: white;
-    text-align: center;
     text-indent: 0px;
+    text-align: center;
 }
