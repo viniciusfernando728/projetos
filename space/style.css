@@ -2,7 +2,6 @@
 
 *
 
-
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -17,7 +16,7 @@
 
 :root {
     --cor01: #102542;
-    --fonte01: 'Babylonica', 'Times New Roman', serif;
+    --fonte01: 'EB Garamond', 'Times New Roman', serif;
     --fonte02: 'Revamped', 'Times New Roman', serif;
 }
 
@@ -26,13 +25,13 @@ body {
 }
 
 h1 {
-    font-family: var(--fonte02), 'Times New Roman', serif;
+    font-family: var(--fonte02);
     font-size: 5em;
     margin: 0px;
 }
 
 h2 {
-    font-family: 'EB Garamond', 'Times New Roman', serif;
+    font-family: var(--fonte01);
     font-size: 2em;
 }
 
@@ -52,18 +51,21 @@ p.conclusao {
 }
 
 p.marca {
-    font-family: var(--fonte02), 'Times New Roman', serif;
+    font-family: var(--fonte02);
     font-size: 2.5em;
     margin: 0px;
     padding-top: 20px;
+    text-indent: 0px;
 }
 
 p#icone {
     margin-top: 10px;
+    text-indent: 0px;
 }
 
 p.copy {
     color: rgb(107, 107, 107);
+    text-indent: 0px;
 }
 
 header {
@@ -124,14 +126,12 @@ img.imagemp {
     display: block;
 }
 
-a.icone {
-    text-align: center;
-}
+
 
 footer{
     background-color: black;
     height: 200px;
     color: white;
-    text-indent: 0px;
+
     text-align: center;
 }
